@@ -1,0 +1,12 @@
+K = 2.20462262
+L = .45359237
+weight = float(input("what is your current weight?"))
+unit = input("(k)g or (L)bs: ")
+if unit.upper() == "K":
+    new_weight = float(weight * K)
+    print(new_weight)
+elif unit.upper() == "L":
+    new_weight = float(weight * L)
+    print(new_weight)
+else:
+    print("Error")
